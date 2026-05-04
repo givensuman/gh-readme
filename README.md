@@ -26,3 +26,7 @@ gh readme charmbracelet/glamour --ref v0.6.0
 | Flag | Description |
 |------|-------------|
 | `--ref` | Branch, tag, or commit SHA to fetch README from |
+
+## License
+
+[MIT](./LICENSE)
