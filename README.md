@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./assets/logo.png" alt="gh-readme" width="200" />
+</div>
+
 # gh-readme
 
 A GitHub CLI extension to render a README in the terminal.
