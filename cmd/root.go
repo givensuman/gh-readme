@@ -43,8 +43,8 @@ var rootCmd = &cobra.Command{
 
 // page pipes text through $PAGER.
 func page(text string) error {
-	pager := os.Getenv("PAGER")
-	if pager == "" {
+	pager, isSet := os.LookupEnv("PAGER")
+	if !isSet || pager == "" {
 		pager = "less"
 	}
 
