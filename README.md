@@ -1,10 +1,8 @@
-<div align="center">
-  <img src="./assets/logo.png" alt="gh-readme" width="200" />
-</div>
+![gh-readme logo](./assets/logo.png)
 
 # gh-readme
 
-A GitHub CLI extension to render a README in the terminal.
+A GitHub CLI extension for viewing READMEs.
 
 ## Install
 
@@ -22,13 +20,17 @@ gh-readme <owner/repo> [--ref <branch|tag|sha>]
 
 ```bash
 gh readme cli/cli
-gh readme charmbracelet/glamour --ref v0.6.0
+gh readme cli/cli --ref v1.0.0
 ```
+
+👇🏼
+
+![gh-readme screenshot](./assets/screenshot.png)
 
 ## Flags
 
-| Flag | Description |
-|------|-------------|
+| Flag    | Description                                     |
+| ------- | ----------------------------------------------- |
 | `--ref` | Branch, tag, or commit SHA to fetch README from |
 
 ## License
